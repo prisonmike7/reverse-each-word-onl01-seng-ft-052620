@@ -5,5 +5,5 @@ def reverse_each_word(phrase)
   phrase.split.each do |word|
     str_array << word.reverse
   end
-  str_array.join(" ")
+  # str_array.join(" ")
 end
